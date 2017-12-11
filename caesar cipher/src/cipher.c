@@ -26,6 +26,7 @@ void caesar(char *sptr,int key){
 	printf("The cipher text is: %s \n",cipher);
 }
 int main(){
+	//Lines 30,31 are functions to deal with eclipse problems with scanning and printing functions
 	setvbuf(stdout, NULL, _IONBF, 0);
 	setvbuf(stderr, NULL, _IONBF, 0);
 	char plain[size],*sptr=plain;
