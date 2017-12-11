@@ -31,7 +31,7 @@ int main(){
 	setvbuf(stderr, NULL, _IONBF, 0);
 	char plain[size],*sptr=plain;
 	int key;
-	//Get the original text and the text
+	//Get the original text and the key
 	puts("Enter the plain text: \n");
 	gets(sptr);
 	puts("Enter the key: \n");
